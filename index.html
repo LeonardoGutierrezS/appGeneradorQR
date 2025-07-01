@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Códigos QR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔗 Generador de Códigos QR</h1>
+            <p>Convierte cualquier texto o URL en un código QR</p>
+        </div>
+        
+        <div class="input-section">
+            <textarea 
+                id="textInput" 
+                placeholder="Pega aquí tu URL o texto para convertir a QR..."
+                rows="4"
+            ></textarea>
+            
+            <div class="controls">
+                <button id="generateBtn" class="btn-primary">
+                    Generar QR
+                </button>
+                <button id="clearBtn" class="btn-secondary">
+                    Limpiar
+                </button>
+            </div>
+        </div>
+        
+        <div class="output-section" id="outputSection" style="display: none;">
+            <div class="qr-container">
+                <div id="qrcode"></div>
+            </div>
+            
+            <div class="download-section">
+                <button id="downloadBtn" class="btn-download">
+                    📥 Descargar QR
+                </button>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Creado por Leonardo Alberto Gutiérrez Sánchez</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/qr-code-styling@1.6.0-rc.1/lib/qr-code-styling.js"></script>
+    <script>
+        // Fallback si no se carga la biblioteca principal
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                if (typeof QRCodeStyling === 'undefined') {
+                    console.log('Biblioteca principal falló, usando generador básico...');
+                    // Cargar generador básico como fallback
+                    loadBasicQRGenerator();
+                }
+            }, 2000);
+        });
+        
+        function loadBasicQRGenerator() {
+            // Implementación básica usando API externa como último recurso
+            window.useAPIFallback = true;
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
