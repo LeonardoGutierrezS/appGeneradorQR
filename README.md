@@ -1,68 +1,109 @@
-# Generador de Códigos QR
+# 📱 Generador de Códigos QR
 
-Una aplicación web simple y elegante para convertir texto o URLs en códigos QR.
-
-## 🚀 Características
-
-- **Interfaz moderna y responsive**: Diseño atractivo que funciona en desktop y móvil
-- **Generación instantánea**: Convierte cualquier texto o URL en código QR al instante
-- **Descarga directa**: Descarga los códigos QR generados como imágenes PNG
-- **Auto-detección de URLs**: Detecta y mejora automáticamente las URLs
-- **Validación de entrada**: Manejo de errores y validación de datos
-- **Atajos de teclado**: Genera QR presionando Enter en el campo de texto
-
-## 🛠️ Tecnologías utilizadas
-
-- HTML5
-- CSS3 (con Flexbox y Grid)
-- JavaScript (ES6+)
-- QRCode.js (biblioteca externa)
-
-## 📋 Cómo usar
-
-1. Abre el archivo `index.html` en tu navegador web
-2. Pega o escribe el texto o URL que quieres convertir
-3. Haz clic en "Generar QR" o presiona Enter
-4. El código QR aparecerá instantáneamente
-5. Haz clic en "Descargar QR" para guardar la imagen
-
-## 🎯 Casos de uso
-
-- Compartir URLs de forma rápida
-- Crear códigos QR para contactos
-- Generar QR para texto plano
-- Compartir información de WiFi
-- Enlaces a redes sociales
-- Información de contacto
-
-## 🔧 Instalación
-
-No requiere instalación. Simplemente:
-
-1. Descarga todos los archivos
-2. Abre `index.html` en cualquier navegador moderno
-3. ¡Listo para usar!
-
-## 📱 Compatibilidad
-
-- ✅ Chrome 60+
-- ✅ Firefox 55+
-- ✅ Safari 11+
-- ✅ Edge 79+
-- ✅ Dispositivos móviles (iOS/Android)
-
-## 🎨 Personalización
-
-Puedes personalizar fácilmente:
-
-- Colores en `styles.css`
-- Tamaño del QR en `script.js`
-- Textos e idioma en `index.html`
-
-## 📄 Licencia
-
-Este proyecto es de uso libre. Creado por Leonardo Gutiérrez Sánchez.
+Convierte texto, URLs y más en códigos QR instantáneamente con esta aplicación web simple, elegante y 100% funcional.  
+¡Perfecta para compartir información al instante desde cualquier dispositivo! 🚀
 
 ---
 
-**¡Disfruta generando tus códigos QR!** 🎉
+## ✨ Características Principales
+
+- 🎨 **Diseño moderno y responsive** – Funciona perfectamente en computadoras y móviles
+- ⚡ **Generación instantánea** – Crea tu código QR en tiempo real
+- 📥 **Descarga rápida** – Guarda el QR como imagen PNG con un solo clic
+- 🔍 **Detección inteligente de URLs** – Reconoce y mejora enlaces automáticamente
+- ✅ **Validación de datos** – Asegura una entrada correcta y sin errores
+- ⌨️ **Atajos de teclado** – Presiona `Enter` para generar el QR sin usar el mouse
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+| Tecnología     | Uso principal                             |
+|----------------|--------------------------------------------|
+| `HTML5`        | Estructura semántica del contenido         |
+| `CSS3`         | Diseño y disposición con Flexbox y Grid    |
+| `JavaScript`   | Lógica interactiva y dinámica (ES6+)       |
+| `QRCode.js`    | Biblioteca para generar códigos QR         |
+
+---
+
+## 📋 Cómo Usarlo
+
+1. Clona o descarga este repositorio  
+2. Abre el archivo `index.html` en tu navegador favorito  
+3. Escribe o pega un texto o URL  
+4. Haz clic en **"Generar QR"** o presiona `Enter`  
+5. ¡Listo! El código QR aparecerá automáticamente  
+6. Haz clic en **"Descargar QR"** para guardarlo como PNG  
+
+---
+
+## 🎯 Casos de Uso
+
+- 🌐 Compartir enlaces o sitios web
+- 📇 Generar códigos QR con contactos o tarjetas virtuales
+- 📶 Compartir credenciales de WiFi
+- 📝 Transformar texto plano en QR
+- 🔗 Enlaces rápidos a redes sociales o portfolios
+
+---
+
+## 💻 Compatibilidad
+
+Compatible con todos los navegadores modernos:
+
+- ✅ Chrome `60+`
+- ✅ Firefox `55+`
+- ✅ Safari `11+`
+- ✅ Edge `79+`
+- ✅ Android & iOS
+
+---
+
+## 🎨 Personalización Rápida
+
+Modifica fácilmente:
+
+- 🎨 Colores en `styles.css`
+- 📏 Tamaño del QR en `script.js`
+- 🗣️ Textos e idioma en `index.html`
+
+---
+
+## 📦 Instalación (0 configuración)
+
+No se requiere instalación ni servidores:
+
+```
+1. Descarga el repositorio (ZIP o Git Clone)
+2. Abre `index.html` en tu navegador
+3. ¡A disfrutar!
+```
+
+---
+
+## 🧑‍💻 Autor
+
+Desarrollado por [**Leonardo Gutiérrez Sánchez**](#)  
+📬 ¡Con gusto recibiré feedback o mejoras!
+
+---
+
+## 📄 Licencia
+
+Este proyecto es completamente **libre de uso** bajo licencia MIT.  
+¡Úsalo, compártelo y mejóralo como quieras! 💙
+
+---
+
+## 🖼️ Captura de Pantalla
+
+![image](https://github.com/user-attachments/assets/5de74e85-dea7-43da-8693-40135a59727a)
+
+```markdown
+![Preview](./screenshot.png)
+```
+
+---
+
+**¡Genera tus códigos QR en segundos y sin complicaciones!** 🎉
