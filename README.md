@@ -101,7 +101,7 @@ Este proyecto es completamente **libre de uso** bajo licencia MIT.
 ![image](https://github.com/user-attachments/assets/5de74e85-dea7-43da-8693-40135a59727a)
 
 ```markdown
-![Preview](./screenshot.png)
+Imagen de la herramienta.
 ```
 
 ---
