@@ -61,7 +61,7 @@ Puedes personalizar fácilmente:
 
 ## 📄 Licencia
 
-Este proyecto es de uso libre. Creado con ❤️ para Leonardo.
+Este proyecto es de uso libre. Creado por Leonardo Gutiérrez Sánchez.
 
 ---
 
